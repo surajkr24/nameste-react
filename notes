@@ -1,0 +1,38 @@
+                                                            Nameste React Notes
+
+Q. what is CDN ?
+=> CDN stands for content delivery network that speeds up web page loading for data-heavy applications.
+The primary purpose of the CDN is to reduce latency, or reduce the delay in communication created by a network's design. Because of the
+global and complex nature of the internet, communication traffic between websites(servers) and their users (clients) has to move over large 
+physical distances. The communication is also two way, with requests going from the client to the server and responds coming back.
+A CDN improves efficency by introducing intermediary servers between the client and the website servers. These CDN servers manage some of
+the client-server communications. They decreace web traffic to the web server, reduce bandwidth consumption, and improve the user
+experience of our app;ications.
+
+
+Q. what is CrossOrigin ?
+=> CrossOrigin refers to interactions between web pages from different domains. CORS is a security feature that allows servers to specify 
+which domains are permitted to access their resources, ensuring secure cross-origin requests.
+
+=>There are two type on dependency 
+1. DEV Dependency
+2. Normal Dependency
+
+Q. What is DEV Dependency?
+=> It is generally require in development phase
+
+Q. What is Local Dppendency?
+=> It can be used in production also
+
+
+=> Node modules are collection of depedencies
+=>we should not push node modules to GIT-HUB
+=>If we delete Node Modules we can regenerate by doing npm insatll
+=>The things which wwe can regenerate should not be pushed to git
+
+                    INGITING OUR APP
+=>For ingiting our App hit npx parcel index.html in terminal
+=>npx id somthing like npm
+=>npm is used to manage our package but npx is used to execute the package
+=>CDN links is not a good way to bring REACT in our project
+=>PARCEL is fast because it has parcel-cache

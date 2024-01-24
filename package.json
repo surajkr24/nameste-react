@@ -1,0 +1,29 @@
+{
+  "name": "nameste-react",
+  "version": "1.0.0",
+  "description": "learning react from scratch",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajkr24/nameste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "suraj kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajkr24/nameste-react/issues"
+  },
+  "homepage": "https://github.com/surajkr24/nameste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
