@@ -36,3 +36,19 @@ Q. What is Local Dppendency?
 =>npm is used to manage our package but npx is used to execute the package
 =>CDN links is not a good way to bring REACT in our project
 =>PARCEL is fast because it has parcel-cache
+
+
+=>JSX is not HTML in JAVA-SCRIPT
+=>JSX is converted into React.createElement() with the help of babel and then rendered to the browser
+=>We need to use calmeCase to give attribute to JSX
+=>Everything is a component iin React
+
+Q.what is a component?
+=>component is of two types:-
+1. Functional Component - new way of writing code ( leatest way )
+->this is just a normal java-script functions which returns some JSX 
+                                    OR
+  A Java-script function which returns a React Element is a functional component
+->name is with a capital letter (this is a react way to understand a functional component)
+2. Class based Component - old way of writing code ( less used way )
+
